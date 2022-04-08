@@ -12,6 +12,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^33.0.0",
     "@ckeditor/ckeditor5-react": "^4.0.1",
+    "@nextui-org/react": "^1.0.7-beta.5",
     "@styled-system/theme-get": "^5.1.2",
     "@types/react-router-dom": "^5.3.3",
     "axios": "^0.26.1",

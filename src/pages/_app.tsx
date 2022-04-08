@@ -8,7 +8,6 @@ import { GlobalStyles } from "../utils/globalStyles";
 import { theme } from "../utils/theme";
 
 
-
 //Binding events.
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
@@ -23,7 +22,9 @@ const App = ({ Component, pageProps }: any) => {
     <ThemeProvider theme={theme}>
       <Head>
 
-
+    <NextUIProvider>
+      <Component {...pageProps} />
+    </NextUIProvider>
 
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
